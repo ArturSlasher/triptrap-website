@@ -1,0 +1,77 @@
+@import '/src/styles.scss';
+
+mat-tab-group {
+  //width: 416px;
+  height: 72px;
+  margin-left: 444px;
+  top: 16px;
+}
+
+mat-tab {
+  text-decoration: none !important;
+
+  position: absolute;
+  height: 72px !important;
+  width: 104px;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  transition: all .5s ease;
+
+  color: $black;
+
+  // &#map {
+  //   left: 35.56%;
+  //   right: 57.22%;
+  // }
+  // &#my-trips {
+  //   left: 42.78%;
+  //   right: 50%;
+  // }
+  // &#planning {
+  //   left: 50%;
+  //   right: 42.78%;
+  // }
+  // &#community {
+  //   left: 57.22%;
+  //   right: 35.56%;
+  // }
+
+  // &:hover {
+  //   font-size: 20px;
+  // }
+  // &.active {
+  //   //color: $primary;
+  //   height: 68px;
+  //   border-bottom: 4px solid mat-color($primary);
+  // }
+}
+
+::ng-deep .mat-tab-label {
+  height: 72px !important;
+  color: $gray;
+}
+
+::ng-deep .mat-tab-label-content{
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+}
+
+::ng-deep .mat-tab-label-active{
+  //height: 68px;
+  border-bottom: 4px solid mat-color($primary);
+  color: $black;
+}
